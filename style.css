@@ -1,0 +1,70 @@
+/*Color background*/
+body {
+	background-color: #343d46;
+}
+/*Center input box*/
+#container {
+	width: 100%;
+	height: 121px;
+	text-align: center;
+}
+/*Style input box*/
+input {
+	display: block;
+	width: 304px;
+	padding: 12px 20px;
+	margin: 0 auto;
+	margin-bottom: 1px;
+	background-color: #2b303b;
+	color: #63717f;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+/*Recolor background on hover*/
+#input:focus {
+	background-color: #ffffff;
+}
+/*Change cursor for output box*/
+#output {
+	cursor: text;
+}
+/*Center buttons*/
+#button_container {
+	padding: 0;
+	margin: 0 auto;
+	width: 346px;
+	height: 81px;
+}
+/*Style buttons*/
+button {
+	padding: 12px 0;
+	margin: 1px 1px;
+	width: 113.33px;
+	border-radius: 5px;
+	border: none;
+	background-color: #2b303b;
+	color: #63717f;
+	cursor: pointer;
+	outline: none;
+}
+/*Change button color on hover*/
+button:hover {
+	background-color: #ffffff;;
+}
+/*Remove bullet points from list*/
+ul {
+	list-style: none;
+}
+/*Style respective button group*/
+ul ul {
+	clear: both;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+/*Horizontalize buttons*/
+ul ul li {
+	float: left;
+}
